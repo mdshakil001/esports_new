@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    /* background-color: #000; */
+}
+.leftDiv{
+    width: 30px;
+    height: 30px;
+    background-color: #d8d8d8;
+    margin-left: 1rem;
+    position: relative;
+    cursor: pointer;
+}
+.rightDiv{
+    width: 30px;
+    height: 30px;
+    background-color: #f7c003;
+    margin-left: 1rem;
+    position: relative;
+    cursor: pointer;
+}
+.lineLeft{
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 20px;
+    height: 4px;
+    background-color: #000;
+}
+.leftIcon{
+    position: absolute;
+    left: -70%;
+    top: 10%;
+}
+.lineRight{
+    position: absolute;
+    top: 45%;
+    right: 0;
+    width: 20px;
+    height: 4px;
+    background-color: #000;
+}
+.rightIcon{
+    position: absolute;
+    right: -70%;
+    top: 10%;
+}

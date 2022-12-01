@@ -1,0 +1,114 @@
+.container{
+    background-color: #1d1d1d;
+}
+.contents{
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10rem 2rem;
+    margin: 0rem auto;
+}
+.left{
+    width: 50%;
+    /* background-color: antiquewhite; */
+    position: relative;
+}
+.ballBig{
+    width: 25Px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #F7C003;
+    position: absolute;
+    bottom: 2rem;
+}
+.ballSmall{
+    width: 20Px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #F7C003;
+    position: absolute;
+    top: -1rem;
+    right: 2rem;
+}
+.left img {
+    width: 80%;
+    margin-left: 10%;
+}
+.right{
+    /* background-color: aqua; */
+    width: 40%;
+    color: #fff;
+}
+
+
+/* ======== media queries   ============ */
+
+@media screen and (min-width: 1024px) {
+}
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .contents{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10rem 2rem;
+    }
+    .left{
+        width: 100%;
+        position: relative;
+    }
+    .left img {
+        width: 100%;
+        margin-left: 0;
+    }
+    .right{
+        /* background-color: aqua; */
+        width: 100%;
+        color: #fff;
+        margin-top: 2rem;
+    }
+    .ballBig{
+        width: 25Px;
+        height: 25px;
+        border-radius: 50%;
+        background-color: #F7C003;
+        position: absolute;
+        bottom: 2rem;
+        left: -1rem;
+        /* z-index: -100; */
+    }
+}
+
+@media screen and (max-width: 480px) {
+.contents{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10rem 2rem;
+    }
+    .left{
+        width: 100%;
+        position: relative;
+    }
+    .left img {
+        width: 100%;
+        margin-left: 0;
+    }
+    .right{
+        /* background-color: aqua; */
+        width: 100%;
+        color: #fff;
+        margin-top: 2rem;
+    }
+    .ballBig{
+        display: none;
+    }
+    .ballSmall{
+        display: none;
+    }
+    
+}

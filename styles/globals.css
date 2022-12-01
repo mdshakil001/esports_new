@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@200;300;400&family=Nunito:wght@200;300;400;500&family=Open+Sans:wght@300;400&family=Prompt:wght@400;500&display=swap');
+/* *,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+/* html{
+    font-size: 62.5%; 
+} */
+
+body {
+    font-family: "Catamaran", sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+    line-height: 1.7;
+    /* width: 100%; */
+    margin: 0 auto;
+    display: block;
+    margin: 0 auto;
+    /* background-color: #212121; */
+}
+.container{
+  background-color: rgba(20, 12, 2, 0.293);
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+
+
+
+/* html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+} */

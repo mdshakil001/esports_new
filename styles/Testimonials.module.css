@@ -1,0 +1,48 @@
+.container{
+    background-color: #212121;
+    width: 100%;
+}
+.contents{
+    /* padding: 2rem 0rem; */
+    /* margin: 0rem 3.5rem; */
+
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem 2rem;
+}
+.design{
+    text-align: center;
+}
+.mainTitle{
+    text-align: center;
+    color: #fff;
+}
+.box{
+    color: #fff;
+    border: 1px solid #f7c003;
+    padding: 3rem;
+    text-align: center;
+}
+
+.position{
+    color: #f7c003;
+    font-style: italic;
+}
+.quote{
+    width: 60%;
+    margin: 1rem auto;
+    font-style: italic;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.legendTitle{
+    color: #f7c003;
+    margin-right: .5rem;
+}
+.sliderBtn{
+    margin-left: 45%;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}

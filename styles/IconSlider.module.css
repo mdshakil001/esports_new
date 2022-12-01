@@ -1,0 +1,19 @@
+.container{
+    background-color: #000;
+    margin-top: -1rem;
+    overflow: hidden;
+
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+    cursor: grabbing;
+    max-width: 1280px;
+}
+.images img {
+    width: 80px;
+    height: 20px;
+    cursor: pointer;
+    margin-left: 2rem;
+}
